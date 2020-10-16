@@ -1,2 +1,4 @@
 #! /usr/bin/env node
 console.log(1234)
+
+const commander = require('commander');
