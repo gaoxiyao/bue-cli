@@ -107,8 +107,7 @@ const create = function (name) {
     //弹出问题的弹框，，
     inquirer.prompt(question).then((answer) => {
         const spinner = ora("正在构建项目").start()
-
-
+        console.log(123)
         console.log(Object.keys(answer))
         console.log(answer);
     })
