@@ -1,11 +1,12 @@
 #! /usr/bin/env node
 
 const program = require('commander');
+const create = require('./src/command/create');
 program
 .command("create <name>")
 .description("创建vue项目")
 .action((name)=>{
-    console.log(name)
+    create(name)
 })
 
 program.parse(process.argv)

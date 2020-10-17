@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/gaoxiyao/bue-cli#readme",
   "bin": {
-    "bue": "./src/index.js"
+    "bue": "./index.js"
   },
   "dependencies": {
     "commander": "^6.1.0",
